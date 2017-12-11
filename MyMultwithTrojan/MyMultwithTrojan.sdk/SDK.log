@@ -1,0 +1,249 @@
+19:44:45 INFO  : Processing command line option -hwspec C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper.hdf.
+19:46:31 INFO  : Processing command line option -hwspec C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper.hdf.
+19:46:31 INFO  : Checking for hwspec changes in the project MultwithTrojan_wrapper_hw_platform_0.
+20:33:53 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+20:37:04 INFO  : ps7_init is completed.
+20:37:04 INFO  : ps7_post_config is completed.
+20:37:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:01 ERROR : Port COM3 is already in use.
+20:43:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:05 ERROR : Port COM3 is already in use.
+20:43:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:34 ERROR : Port COM3 is already in use.
+20:44:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:35 ERROR : Port COM3 is already in use.
+20:46:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:47:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:47:26 ERROR : Port COM3 is already in use.
+20:57:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:57:29 ERROR : Port COM3 is already in use.
+20:57:29 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:57:44 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+20:58:06 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+20:59:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:59:24 ERROR : Port COM3 is already in use.
+20:59:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:06:49 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:08:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:08:19 ERROR : Port COM3 is already in use.
+21:08:19 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:11:26 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:13:58 INFO  : System reset is completed.
+21:13:58 ERROR : Port COM3 is already in use.
+21:13:58 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:14:53 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:15:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:15:45 ERROR : Port COM3 is already in use.
+21:15:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:17:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:17:45 ERROR : Port COM3 is already in use.
+21:17:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:20:37 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:24:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:24:10 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:26:37 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:28:22 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+21:33:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:12:29 INFO  : Processing command line option -hwspec C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper.hdf.
+22:12:32 INFO  : Checking for hwspec changes in the project MultwithTrojan_wrapper_hw_platform_0.
+22:15:08 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+22:16:36 INFO  : ps7_init is completed.
+22:16:37 INFO  : ps7_post_config is completed.
+22:16:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:37 ERROR : Port COM3 is already in use.
+22:18:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:14 ERROR : Port COM3 is already in use.
+23:10:08 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+23:10:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:10:46 ERROR : Port COM3 is already in use.
+10:34:15 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+10:58:29 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+10:58:43 INFO  : ps7_init is completed.
+10:58:43 INFO  : ps7_post_config is completed.
+10:58:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:58:43 ERROR : Port COM3 is already in use.
+11:13:17 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+11:13:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:27 ERROR : Port COM3 is already in use.
+11:18:16 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+11:18:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:27 ERROR : Port COM3 is already in use.
+11:25:29 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+11:31:15 WARN  : Change BSP handler invoked, but no selected application in workspace.
+11:52:44 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+11:52:54 INFO  : ps7_init is completed.
+11:52:54 INFO  : ps7_post_config is completed.
+11:52:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:52:54 ERROR : Port COM3 is already in use.
+12:15:07 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+12:15:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:15:15 ERROR : Port COM3 is already in use.
+14:59:53 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+15:00:02 INFO  : ps7_init is completed.
+15:00:02 INFO  : ps7_post_config is completed.
+15:00:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:00:02 ERROR : Port COM3 is already in use.
+15:05:33 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+15:06:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:09 ERROR : Port COM3 is already in use.
+15:06:29 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+15:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:37 ERROR : Port COM3 is already in use.
+15:43:44 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+15:43:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:54 ERROR : Port COM3 is already in use.
+15:44:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:47 ERROR : Port COM3 is already in use.
+15:46:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:56 ERROR : Port COM3 is already in use.
+15:57:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:33 ERROR : Port COM3 is already in use.
+15:58:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:28 ERROR : Port COM3 is already in use.
+16:00:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:04 ERROR : Port COM3 is already in use.
+16:01:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:01:42 ERROR : Port COM3 is already in use.
+16:02:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:36 ERROR : Port COM3 is already in use.
+16:03:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:03:57 ERROR : Port COM3 is already in use.
+16:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:04:48 ERROR : Port COM3 is already in use.
+16:06:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:06:03 ERROR : Port COM3 is already in use.
+11:41:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:51:13 INFO  : Processing command line option -hwspec C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper.hdf.
+17:51:16 INFO  : Checking for hwspec changes in the project MultwithTrojan_wrapper_hw_platform_0.
+17:52:55 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+17:55:56 INFO  : ps7_init is completed.
+17:55:56 INFO  : ps7_post_config is completed.
+17:55:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:56:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:56:39 ERROR : Port COM3 is already in use.
+19:02:14 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+09:27:48 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+09:28:24 INFO  : ps7_init is completed.
+09:28:24 INFO  : ps7_post_config is completed.
+09:28:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:28:25 ERROR : Port COM3 is already in use.
+09:31:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:31:04 ERROR : Port COM3 is already in use.
+09:33:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:33:18 ERROR : Port COM3 is already in use.
+09:56:35 INFO  : FPGA configured successfully with bitstream "C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/MultwithTrojan_wrapper_hw_platform_0/MultwithTrojan_wrapper.bit"
+10:01:32 INFO  : ps7_init is completed.
+10:01:32 INFO  : ps7_post_config is completed.
+10:01:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:01:32 ERROR : Port COM3 is already in use.
+10:02:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:02:14 ERROR : Port COM3 is already in use.
+10:13:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:13:22 ERROR : Port COM3 is already in use.
+11:44:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

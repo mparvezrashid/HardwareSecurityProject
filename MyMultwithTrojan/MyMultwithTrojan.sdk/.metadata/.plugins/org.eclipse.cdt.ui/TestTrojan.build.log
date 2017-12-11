@@ -1,0 +1,6 @@
+10:13:16 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+
+10:13:16 Build Finished (took 197ms)
+

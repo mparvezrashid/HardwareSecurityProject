@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER multwithTrojan
+	OPTION supported_peripherals = (multwithTrojan);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = multwithTrojan;
+END DRIVER

@@ -1,0 +1,10 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Dec 04 21:33:51 2017
+# Process ID: 7828
+# Log file: C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/webtalk/vivado.log
+# Journal file: C:/Users/sweuser/MyMultwithTrojan/MyMultwithTrojan.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------

@@ -1,0 +1,1500 @@
+19:48:54 **** Build of project TestTrojan_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/multwithtrojan_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/multwithtrojan_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/multwithtrojan_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/multwithtrojan_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling multwithTrojan..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:49:50 **** Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22940	   1096	  29780	  53816	   d238	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+20:36:53 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:38:55 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:39:17 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c:38:34: error: 'XPAR_MY_MULTIPLIER_0_S00_AXI_BASEADDR' undeclared here (not in a function)
+ Xuint32 *baseaddr_p = (Xuint32 *)XPAR_MY_MULTIPLIER_0_S00_AXI_BASEADDR;
+                                  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+make: *** [src/helloworld.o] Error 1
+20:42:36 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	   1104	  29780	  56184	   db78	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+20:42:58 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:43:29 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:44:29 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:46:45 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:47:21 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:57:17 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:57:47 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+20:58:20 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+20:59:18 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:01:30 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:02:51 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:04:59 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	   1104	  29780	  56184	   db78	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+21:05:27 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:05:55 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+21:08:13 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:09:12 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:13:52 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:14:38 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	   1104	  29780	  56184	   db78	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+21:15:39 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:17:37 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:19:46 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:21:27 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:24:04 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:24:18 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+21:24:48 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+22:13:27 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+22:16:30 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+22:17:50 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+22:18:08 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+23:09:48 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%04x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+23:10:40 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+23:11:41 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+10:58:13 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25364	   1104	  29780	  56248	   dbb8	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+10:58:39 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+11:13:00 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %d \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25364	   1104	  29780	  56248	   dbb8	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+11:13:23 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+11:13:51 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25364	   1104	  29780	  56248	   dbb8	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+11:17:58 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:50:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+     int c* = *(baseaddr_p+0);
+          ^
+../src/helloworld.c:50:12: error: expected expression before '=' token
+     int c* = *(baseaddr_p+0);
+            ^
+../src/helloworld.c:51:22: error: 'c' undeclared (first use in this function)
+     xil_printf("%d",&c);
+                      ^
+../src/helloworld.c:51:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+11:18:23 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:50:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+     int c* = *(baseaddr_p+0);
+          ^
+../src/helloworld.c:50:12: error: expected expression before '=' token
+     int c* = *(baseaddr_p+0);
+            ^
+../src/helloworld.c:51:22: error: 'c' undeclared (first use in this function)
+     xil_printf("%d",&c);
+                      ^
+../src/helloworld.c:51:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+11:25:14 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:50:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+     int c* = *(baseaddr_p+0);
+          ^
+../src/helloworld.c:50:12: error: expected expression before '=' token
+     int c* = *(baseaddr_p+0);
+            ^
+../src/helloworld.c:51:21: error: 'c' undeclared (first use in this function)
+     xil_printf("%d",c);
+                     ^
+../src/helloworld.c:51:21: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+11:49:25 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:53:21: warning: initialization from incompatible pointer type [enabled by default]
+     char* pointer = baseaddr_p+0;
+                     ^
+../src/helloworld.c:55:10: error: redefinition of 'value'
+     char value = *pointer;
+          ^
+../src/helloworld.c:52:10: note: previous definition of 'value' was here
+     char value =*(char*)(baseaddr_p+0);
+          ^
+../src/helloworld.c:57:10: warning: unused variable 'second_byte' [-Wunused-variable]
+     char second_byte = pointer[1];
+          ^
+../src/helloworld.c:56:10: warning: unused variable 'fist_byte' [-Wunused-variable]
+     char fist_byte = pointer[0];
+          ^
+../src/helloworld.c:55:10: warning: unused variable 'value' [-Wunused-variable]
+     char value = *pointer;
+          ^
+make: *** [src/helloworld.o] Error 1
+11:50:34 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: %x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:53:21: warning: initialization from incompatible pointer type [enabled by default]
+     char* pointer = baseaddr_p+0;
+                     ^
+../src/helloworld.c:57:10: warning: unused variable 'second_byte' [-Wunused-variable]
+     char second_byte = pointer[1];
+          ^
+../src/helloworld.c:56:10: warning: unused variable 'fist_byte' [-Wunused-variable]
+     char fist_byte = pointer[0];
+          ^
+../src/helloworld.c:52:10: warning: unused variable 'value' [-Wunused-variable]
+     char value =*(char*)(baseaddr_p+0);
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25436	   1104	  29780	  56320	   dc00	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+11:52:50 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+12:03:31 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:33: error: lvalue required as unary '&' operand
+     xil_printf("Read: %d \n\r", &(baseaddr_p+1));
+                                 ^
+make: *** [src/helloworld.o] Error 1
+12:14:49 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	   1104	  29780	  56184	   db78	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+12:15:12 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+14:59:38 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+14:59:59 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25368	   1104	  29780	  56252	   dbbc	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:06:03 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:06:34 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:11:29 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:51:9: error: array size missing in 'a'
+     int a[];
+         ^
+../src/helloworld.c:54:10: error: 'x' undeclared (first use in this function)
+      if (x%2==0)
+          ^
+../src/helloworld.c:54:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:55:15: error: expected expression before ']' token
+             a[]=1;
+               ^
+../src/helloworld.c:51:9: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+     int a[];
+         ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:61:16: error: expected declaration specifiers or '...' before string constant
+     xil_printf("End of test \n\n\r");
+                ^
+../src/helloworld.c:62:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^
+../src/helloworld.c:63:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+make: *** [src/helloworld.o] Error 1
+15:11:46 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:51:9: error: array size missing in 'a'
+     int a[];
+         ^
+../src/helloworld.c:55:15: error: expected expression before ']' token
+             a[]=1;
+               ^
+../src/helloworld.c:51:9: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+     int a[];
+         ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:61:16: error: expected declaration specifiers or '...' before string constant
+     xil_printf("End of test \n\n\r");
+                ^
+../src/helloworld.c:62:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^
+../src/helloworld.c:63:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+make: *** [src/helloworld.o] Error 1
+15:37:56 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:9: warning: unused variable 'i' [-Wunused-variable]
+     int i=0;
+         ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:16: error: expected declaration specifiers or '...' before string constant
+     xil_printf("End of test \n\n\r");
+                ^
+../src/helloworld.c:72:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^
+../src/helloworld.c:73:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+make: *** [src/helloworld.o] Error 1
+15:38:51 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:9: warning: unused variable 'i' [-Wunused-variable]
+     int i=0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25492	   1104	  29780	  56376	   dc38	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:43:28 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:9: warning: unused variable 'i' [-Wunused-variable]
+     int i=0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	   1104	  29780	  56380	   dc3c	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:43:51 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:44:28 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:9: warning: unused variable 'i' [-Wunused-variable]
+     int i=0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	   1104	  29780	  56380	   dc3c	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:44:42 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:46:45 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:52:9: warning: unused variable 'i' [-Wunused-variable]
+     int i=0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25508	   1104	  29780	  56392	   dc48	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:46:49 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:56:11 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:53:5: error: 'for' loop initial declarations are only allowed in C99 mode
+     for(int i=0;i<2;i++)
+     ^
+../src/helloworld.c:53:5: note: use option -std=c99 or -std=gnu99 to compile your code
+make: *** [src/helloworld.o] Error 1
+15:57:08 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25572	   1104	  29780	  56456	   dc88	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:57:27 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:58:18 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25572	   1104	  29780	  56456	   dc88	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:58:22 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+15:59:53 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25572	   1104	  29780	  56456	   dc88	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+15:59:59 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+16:01:32 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25572	   1104	  29780	  56456	   dc88	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+16:01:37 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+16:02:27 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	   1104	  29780	  56380	   dc3c	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+16:02:30 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+16:03:52 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+16:04:38 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	   1104	  29780	  56380	   dc3c	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+16:04:42 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+16:05:57 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+17:55:48 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+17:56:33 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+09:28:14 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+09:30:05 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25476	   1104	  29780	  56360	   dc28	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+09:30:44 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25476	   1104	  29780	  56360	   dc28	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+09:30:58 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+09:33:08 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25476	   1104	  29780	  56360	   dc28	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+09:33:12 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+09:56:44 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25476	   1104	  29780	  56360	   dc28	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+10:01:26 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+10:02:05 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+../src/helloworld.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25476	   1104	  29780	  56360	   dc28	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+10:02:08 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
+10:03:52 **** Auto Build of configuration Debug for project TestTrojan ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TestTrojan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:35:0:
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../TestTrojan_bsp/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:48:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestTrojan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestTrojan_bsp/ps7_cortexa9_0/lib -o "TestTrojan.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestTrojan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestTrojan.elf  |tee "TestTrojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	   1104	  29780	  56380	   dc3c	TestTrojan.elf
+'Finished building: TestTrojan.elf.size'
+' '
+10:13:16 **** Incremental Build of configuration Debug for project TestTrojan ****
+make all 
+make: Nothing to be done for `all'.
